@@ -1,8 +1,5 @@
 package mariapiabaldoin.giorno_1_17.entities;
 
-import lombok.ToString;
-
-@ToString
 public class Bevanda extends Elemento {
 
     public Bevanda(String nome, int informazioniNutrizionali, double prezzo) {
